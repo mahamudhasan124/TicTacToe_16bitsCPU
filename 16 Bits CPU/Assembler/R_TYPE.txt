@@ -1,0 +1,8 @@
+add 0000
+sub 0001
+and 0010
+or 0011
+nor 0100
+sll 0101
+srl 0110
+slt 0111

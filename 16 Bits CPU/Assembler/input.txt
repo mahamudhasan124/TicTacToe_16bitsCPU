@@ -1,0 +1,13 @@
+sub $s2, $s1, $s0
+addi $s1, $t0, -30
+lw  $t1, 30($t2)
+sw  $t1, 30($t2)
+sw  $t0, 20($t2)
+and $t1, $zero, $t2  
+nor $t2, $t1, $s0
+sll $s1, $s0, 3
+srl $s1, $s0, 3
+add $s1, $s2, $s3
+beq $zero, $s2, 15
+bne $s1, $zero, 30
+slt $t2, $s2, $s3
